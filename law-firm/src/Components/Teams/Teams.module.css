@@ -1,0 +1,26 @@
+/* .header {
+  width: 253px;
+  height: 77px;
+} */
+
+.wrapper h1 {
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.teamGridContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 400px 400px 400px;
+  gap: 30px;
+}
+
+.tile {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}

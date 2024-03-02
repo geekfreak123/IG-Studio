@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 40px;
+  cursor: pointer;
+
+  width: 539px;
+}
+
+.textDiv h3 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.buttonDiv img {
+  object-fit: none;
+  width: 28px;
+  height: 28px;
+}
+
+.answerDiv {
+  border: 1px solid grey;
+  border-top: none;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  overflow: hidden;
+  transition: display 0.1s ease;
+  padding: 20px;
+  padding-top: 0px;
+  width: 527px;
+}

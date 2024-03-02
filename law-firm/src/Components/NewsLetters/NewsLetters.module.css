@@ -1,0 +1,64 @@
+.wrapper {
+  margin-top: 215px;
+  width: 1245px;
+  height: 356px;
+  background: #47474780;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .header {
+  width: 659px;
+  height: 75px;
+}
+
+.header h2 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.inputWrapper {
+  /* width: 686px; */
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 30px;
+  align-items: center;
+}
+
+.inputName {
+  width: 275px;
+  height: 53px;
+  border-radius: 8px 0px 0px 8px;
+  background: #e4e4e4;
+  margin: 9px;
+}
+
+.inputEmail {
+  width: 275px;
+  height: 53px;
+  background: #e4e4e4;
+}
+
+button {
+  width: 116px;
+  height: 53px;
+  border-radius: 0px 8px 8px 0px;
+  margin: 9px;
+  background: #e3b748;
+}
+
+button p {
+  font-family: Helvetica Now Display;
+  font-size: 14px;
+  font-weight: 700;
+  /* line-height: 19px; */
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  opacity: 1;
+}
